@@ -1,3 +1,3 @@
 # Trainings-App
-yo was geht
+yo was geht \s
 test test
