@@ -8,8 +8,9 @@ Sprache:
 -Python(A)
 -C#(A)
 -C++(A)
--Swift(iOS)
--Kotlin(A)
+
+Extensions:
+-Android IOS Emulator
 
 Datenbank:
 -SQL
