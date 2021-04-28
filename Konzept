@@ -8,6 +8,8 @@ Sprache:
 -Swift(iOS)
 -Kotlin(A)
 
+Datenbank:
+-SQL
 
 Design:
 -Dunkel
@@ -19,4 +21,5 @@ Inhalt:
 -Videos zu den Übungen
 -Datenbank, die deine Gewichte zb speichert und vergleicht
 -Datenbank mit den Übungen
-
+-Pausencounter
+-
