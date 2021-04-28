@@ -1,6 +1,12 @@
 Hier werden die ganzen Konzeptideen reingeschrieben.
 
 Sprache:
+-Java(A)
+-Python(A)
+-C#(A)
+-C++(A)
+-Swift(iOS)
+-Kotlin(A)
 
 
 Design:
@@ -12,5 +18,5 @@ Inhalt:
 -> vlt vorgefertigte Pläne 
 -Videos zu den Übungen
 -Datenbank, die deine Gewichte zb speichert und vergleicht
--Datenbank mit Übungen zur Auswahl
--kg in lbs
+-Datenbank mit den Übungen
+
