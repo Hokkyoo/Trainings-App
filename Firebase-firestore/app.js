@@ -1,24 +1,61 @@
 const exerciseList = document.querySelector('#exercise-list');
+const form = document.querySelector('#add-exercise')
 
 //create element and render exercise
 function renderExercise(doc){
     	let li = document.createElement('li');              // Jedes Dokument bekommt ein li-Tag und 
         let name = document.createElement('span');           // span-Tag zugeteilt 
         let category = document.createElement('span');
+        let cross = document.createElement('div');
 
         li.setAttribute('data-id', doc.id); // Das jeweilige Dokument erhält eine eigene ID
         name.textContent = doc.data().name; //Name vom Dokument wird entnommen
         category.textContent = doc.data().category; //Kategorie vom Dokument wird entnommen
+        cross.textContent = 'x';
 
         li.appendChild(name);           //  The append() method takes a single item as an input parameter
         li.appendChild(category);       //   and adds that to the end of the list. The items inside 
-                                        //   a list can be numbers, strings, another list, dictionary.
+        li.appendChild(cross);          //   a list can be numbers, strings, another list, dictionary.
 
         exerciseList.appendChild(li);
+
+// Daten auf der Website löschen aus der Datenbank
+
+cross.addEventListener('click', (evt) => {
+    let id = evt.target.parentElement.getAttribute('data-id');
+    db.collection('übung').doc(id).delete();
+
+    })
 }
 
-db.collection('übung').get().then((snapshot) => { // Snapshot der Kollektion --> Daten werden entnommen
-    snapshot.docs.forEach(doc => {                 // Unterteilt die Kollektion in einzelne Dokumente
-        renderExercise(doc);                        // obere Funktion wird ausgeführt
+
+//  Daten werden aus der Datenbank entnommen --> VERALTET (KEINE REAL-TIME DATABASE)
+//db.collection('übung').orderBy('name').get().then((snapshot) => { // Snapshot der Kollektion --> Daten werden entnommen
+  //  snapshot.docs.forEach(doc => {                                // Unterteilt die Kollektion in einzelne Dokumente
+    //    renderExercise(doc);                                      // obere Funktion wird ausgeführt
+    //})
+//})
+
+//Daten in die Datenbank speichern --> User
+form.addEventListener('submit', (evt) => { 
+    evt.preventDefault();
+    db.collection('übung').add({
+        name: form.name.value,
+        category: form.category.value
+    })
+    form.name.value = '';
+    form.category.value = '';
+});
+
+// Real-Time Listener
+db.collection('übung').orderBy('name').onSnapshot(snapshot =>{
+    let changes = snapshot.docChanges();
+    changes.forEach(change => {
+        if(change.type == 'added'){
+            renderExercise(change.doc);
+        } else if (change.type == 'removed'){
+            let li = exerciseList.querySelector('[data-id=' + change.doc.id + ']');
+            exerciseList.removeChild(li);
+        }
     })
 })

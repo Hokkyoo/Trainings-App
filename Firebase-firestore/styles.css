@@ -1,5 +1,5 @@
 body{
-    background: #153be7;
+    background: #6c82e6;
     font-family: ubuntu;
 }
 
@@ -52,8 +52,8 @@ li span:nth-child(2){
 
 li div{
     position: absolute;
-    top: 0;
-    right: 0px;
+    top: 23;
+    right: 15px;
     background: rgba(255,255,255,0.6);
     width: 40px;
     text-align: center;
@@ -98,5 +98,5 @@ button{
     font-weight: bold;
     font-family: ubuntu;
     letter-spacing: 1px;
-    color: #999;
+    color: rgb(102, 102, 102);
 }
