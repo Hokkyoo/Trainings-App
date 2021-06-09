@@ -1,0 +1,926 @@
+Goals:
+
+._13 {
+  background-image: url("13.png");
+  position: absolute;
+  left: 1636px;
+  top: 13px;
+  width: 429px;
+  height: 470px;
+  z-index: 143;
+}
+
+
+.Goals {
+  position: absolute;
+  left: 1000px;
+  top: 0px;
+  width: 500px;
+  height: 500px;
+  z-index: 141;
+}
+._13 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 346.999px;
+  top: 315.832px;
+  z-index: 140;
+}
+._14 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 401.826px;
+  top: 177.5px;
+  z-index: 139;
+}
+._7 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 404.726px;
+  top: 257.628px;
+  z-index: 138;
+}
+._6 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 347.5px;
+  top: 120.5px;
+  z-index: 137;
+}
+._12 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 291.463px;
+  top: 178px;
+  z-index: 136;
+}
+._5 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 294.264px;
+  top: 257.635px;
+  z-index: 135;
+}
+._11 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 237.382px;
+  top: 178px;
+  z-index: 134;
+}
+._4 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 236.817px;
+  top: 119.5px;
+  z-index: 133;
+}
+._10 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 180.998px;
+  top: 178px;
+  z-index: 132;
+}
+._21 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 401.737px;
+  top: 237px;
+  z-index: 131;
+}
+._29 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 69.353px;
+  top: 492.065px;
+  z-index: 130;
+}
+._30 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 125.611px;
+  top: 490.065px;
+  z-index: 129;
+}
+._31 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 179.995px;
+  top: 489.832px;
+  z-index: 128;
+}
+._28 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 402.853px;
+  top: 295px;
+  z-index: 127;
+}
+._27 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 345.544px;
+  top: 431.628px;
+  z-index: 126;
+}
+._20 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 345.353px;
+  top: 236.5px;
+  z-index: 125;
+}
+._26 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 290.353px;
+  top: 294.5px;
+  z-index: 124;
+}
+._19 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 291.998px;
+  top: 375.832px;
+  z-index: 123;
+}
+._25 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 235.853px;
+  top: 433.635px;
+  z-index: 122;
+}
+._18 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 235.999px;
+  top: 236px;
+  z-index: 121;
+}
+._24 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 178.181px;
+  top: 293.5px;
+  z-index: 120;
+}
+._17 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 179.69px;
+  top: 375.832px;
+  z-index: 119;
+}
+._23 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 124.853px;
+  top: 434.065px;
+  z-index: 118;
+}
+._16 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 124.998px;
+  top: 236.5px;
+  z-index: 117;
+}
+._22 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 68.818px;
+  top: 295.5px;
+  z-index: 116;
+}
+._15 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 70.998px;
+  top: 375.832px;
+  z-index: 115;
+}
+._8 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 73.5px;
+  top: 178px;
+  z-index: 114;
+}
+._9 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 128.5px;
+  top: 316.065px;
+  z-index: 113;
+}
+._3 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 184.549px;
+  top: 257.065px;
+  z-index: 112;
+}
+._2 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 127.147px;
+  top: 120.5px;
+  z-index: 111;
+}
+._1 {
+  font-size: 14px;
+  font-family: "Andada";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 10;
+  text-align: center;
+  -moz-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -webkit-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  -ms-transform: matrix( 1.41519062890006,0,0,1.41519062890006,0,0);
+  position: absolute;
+  left: 73.364px;
+  top: 120px;
+  z-index: 110;
+}
+.Rechteck_4_Kopie_9 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 277px;
+  top: 344px;
+  width: 39px;
+  height: 38px;
+  z-index: 109;
+}
+.Rechteck_4_Kopie_9 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 222px;
+  top: 344px;
+  width: 39px;
+  height: 38px;
+  z-index: 108;
+}
+.Rechteck_4_Kopie_14 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 165px;
+  top: 402px;
+  width: 39px;
+  height: 38px;
+  z-index: 107;
+}
+.Rechteck_4_Kopie_9 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 167px;
+  top: 344px;
+  width: 38px;
+  height: 38px;
+  z-index: 106;
+}
+.Rechteck_4_Kopie_13 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 112px;
+  top: 402px;
+  width: 38px;
+  height: 38px;
+  z-index: 105;
+}
+.Rechteck_4_Kopie_9 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 112px;
+  top: 344px;
+  width: 38px;
+  height: 38px;
+  z-index: 104;
+}
+.Rechteck_4_Kopie_12 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 56px;
+  top: 402px;
+  width: 39px;
+  height: 38px;
+  z-index: 103;
+}
+.Rechteck_4_Kopie_9 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 56px;
+  top: 344px;
+  width: 39px;
+  height: 38px;
+  z-index: 102;
+}
+.Rechteck_4_Kopie_11 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 389px;
+  top: 345px;
+  width: 39px;
+  height: 39px;
+  z-index: 101;
+}
+.Rechteck_4_Kopie_10 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 332px;
+  top: 345px;
+  width: 39px;
+  height: 39px;
+  z-index: 100;
+}
+.Rechteck_4_Kopie_8 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 388px;
+  top: 286px;
+  width: 38px;
+  height: 38px;
+  z-index: 99;
+}
+.Rechteck_4_Kopie_8 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 332px;
+  top: 286px;
+  width: 39px;
+  height: 38px;
+  z-index: 98;
+}
+.Rechteck_4_Kopie_8 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 277px;
+  top: 286px;
+  width: 39px;
+  height: 38px;
+  z-index: 97;
+}
+.Rechteck_4_Kopie_8 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 222px;
+  top: 286px;
+  width: 39px;
+  height: 38px;
+  z-index: 96;
+}
+.Rechteck_4_Kopie_8 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 167px;
+  top: 286px;
+  width: 38px;
+  height: 38px;
+  z-index: 95;
+}
+.Rechteck_4_Kopie_8 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 112px;
+  top: 286px;
+  width: 38px;
+  height: 38px;
+  z-index: 94;
+}
+.Rechteck_4_Kopie_8 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 56px;
+  top: 286px;
+  width: 39px;
+  height: 38px;
+  z-index: 93;
+}
+.Rechteck_4_Kopie_7 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 388px;
+  top: 228px;
+  width: 38px;
+  height: 38px;
+  z-index: 92;
+}
+.Rechteck_4_Kopie_7 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 332px;
+  top: 228px;
+  width: 39px;
+  height: 38px;
+  z-index: 91;
+}
+.Rechteck_4_Kopie_7 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 277px;
+  top: 228px;
+  width: 39px;
+  height: 38px;
+  z-index: 90;
+}
+.Rechteck_4_Kopie_7 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 222px;
+  top: 228px;
+  width: 39px;
+  height: 38px;
+  z-index: 89;
+}
+.Rechteck_4_Kopie_7 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 167px;
+  top: 228px;
+  width: 38px;
+  height: 38px;
+  z-index: 88;
+}
+.Rechteck_4_Kopie_7 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 112px;
+  top: 228px;
+  width: 38px;
+  height: 38px;
+  z-index: 87;
+}
+.Rechteck_4_Kopie_7 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 56px;
+  top: 228px;
+  width: 39px;
+  height: 38px;
+  z-index: 86;
+}
+.Rechteck_4_Kopie_6 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 388px;
+  top: 170px;
+  width: 38px;
+  height: 38px;
+  z-index: 85;
+}
+.Rechteck_4_Kopie_5 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 332px;
+  top: 170px;
+  width: 39px;
+  height: 38px;
+  z-index: 84;
+}
+.Rechteck_4_Kopie_4 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 277px;
+  top: 170px;
+  width: 39px;
+  height: 38px;
+  z-index: 83;
+}
+.Rechteck_4_Kopie_3 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 222px;
+  top: 170px;
+  width: 39px;
+  height: 38px;
+  z-index: 82;
+}
+.Rechteck_4_Kopie_2 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 167px;
+  top: 170px;
+  width: 38px;
+  height: 38px;
+  z-index: 81;
+}
+.Rechteck_4_Kopie {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 112px;
+  top: 170px;
+  width: 38px;
+  height: 38px;
+  z-index: 80;
+}
+.Rechteck_4 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 56px;
+  top: 170px;
+  width: 39px;
+  height: 38px;
+  z-index: 79;
+}
+.Dezember {
+  font-size: 72px;
+  font-family: "Andada";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.944;
+  text-align: right;
+  -moz-transform: matrix( 0.97177274379464,0,0,0.97177274379464,0,0);
+  -webkit-transform: matrix( 0.97177274379464,0,0,0.97177274379464,0,0);
+  -ms-transform: matrix( 0.97177274379464,0,0,0.97177274379464,0,0);
+  position: absolute;
+  left: 83.337px;
+  top: 14.516px;
+  z-index: 78;
+}
+.Rote_Ecke {
+  background-image: url("Rote Ecke.png");
+  position: absolute;
+  left: 36px;
+  top: 13px;
+  width: 429px;
+  height: 129px;
+  z-index: 77;
+}
+.Hintergrund {
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 35px;
+  top: 13px;
+  width: 420px;
+  height: 460px;
+  z-index: 76;
+}
