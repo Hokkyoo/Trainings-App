@@ -75,6 +75,27 @@ form input{
     font-size: 18px;
 }
 
+form select{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 16px; 
+}
+
+
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
 form input:focus{
     outline: none;
     border-bottom: 3px solid #0c387e;
