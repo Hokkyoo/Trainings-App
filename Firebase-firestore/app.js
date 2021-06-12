@@ -4,16 +4,18 @@ const form = document.querySelector('#add-exercise')
 //create element and render exercise
 function renderExercise(doc){
     	let li = document.createElement('li');              // Jedes Dokument bekommt ein li-Tag und 
-        let name = document.createElement('span');           // span-Tag zugeteilt 
+        let name = document.createElement('span');           // span-Tag zugeteilt --> für CSS
+        let area = document.createElement('span')
         let cross = document.createElement('div');
 
         li.setAttribute('data-id', doc.id); // Das jeweilige Dokument erhält eine eigene ID
         name.textContent = doc.data().name; //Name vom Dokument wird entnommen
+        area.textContent = doc.data().area;
         cross.textContent = 'x';
 
         li.appendChild(name);           //  The append() method takes a single item as an input parameter     
-        li.appendChild(cross);          //   and adds that to the end of the list. The items inside 
-                                        //   a list can be numbers, strings, another list, dictionary.
+        li.appendChild(area);          //   and adds that to the end of the list. The items inside 
+        li.appendChild(cross)                                //   a list can be numbers, strings, another list, dictionary.
 
         exerciseList.appendChild(li);
 
@@ -36,13 +38,19 @@ cross.addEventListener('click', (evt) => {
 
 //Daten in die Datenbank speichern --> User
 form.addEventListener('submit', (evt) => { 
-    evt.preventDefault();
-    db.collection('exercise').add({
-        name: form.name.value,
+    if(form.name.value == '' || form.area.value == ''){
+        evt.preventDefault();
+        return false;
+    }
+    else{
+        evt.preventDefault();
+        db.collection('exercise').add({
+            name: form.name.value,
+            area: form.area.value
     })
     form.name.value = '';
-    form.category.value = '';
-});
+    form.area.value = '';
+}});
 
 // Real-Time Listener
 db.collection('exercise').orderBy('name').onSnapshot(snapshot =>{
@@ -56,8 +64,5 @@ db.collection('exercise').orderBy('name').onSnapshot(snapshot =>{
         }
     })
 })
-
-const ref = db.collection('hitconnection')
  
-console.log(ref.doc);
 
