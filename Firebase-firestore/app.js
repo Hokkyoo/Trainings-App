@@ -28,17 +28,9 @@ cross.addEventListener('click', (evt) => {
     })
 }
 
-
-//  Daten werden aus der Datenbank entnommen --> VERALTET (KEINE REAL-TIME DATABASE)
-//db.collection('übung').orderBy('name').get().then((snapshot) => { // Snapshot der Kollektion --> Daten werden entnommen
-  //  snapshot.docs.forEach(doc => {                                // Unterteilt die Kollektion in einzelne Dokumente
-    //    renderExercise(doc);                                      // obere Funktion wird ausgeführt
-    //})
-//})
-
 //Daten in die Datenbank speichern --> User
 form.addEventListener('submit', (evt) => { 
-    if(form.name.value == '' || form.area.value == ''){
+    if(form.name.value == '' || document.getElementById("categorylist").value == ''){
         evt.preventDefault();
         return false;
     }
@@ -46,10 +38,10 @@ form.addEventListener('submit', (evt) => {
         evt.preventDefault();
         db.collection('exercise').add({
             name: form.name.value,
-            area: form.area.value
+            area: db.collection('category').doc(document.getElementById("categorylist").value).get('area')
     })
     form.name.value = '';
-    form.area.value = '';
+    document.getElementById("categorylist").value = '';
 }});
 
 // Real-Time Listener
@@ -64,5 +56,31 @@ db.collection('exercise').orderBy('name').onSnapshot(snapshot =>{
         }
     })
 })
- 
+
+
+
+console.log(db.collection('category').doc('document.getElementById("categorylist").value').data.area);
+
+
+
+
+
+/* function getId(){
+    db.collection('category').get().then((snapshot) => {
+        snapshot.docs.forEach(doc => {
+            console.log(doc.id)
+        })
+    })
+}
+
+function getName(){
+    db.collection('category').get().then((snapshot) => {
+        snapshot.docs.forEach(doc => {
+            console.log(doc.data.area)
+        })
+    })
+}
+*/ 
+
+
 
