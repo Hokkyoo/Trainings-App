@@ -1,7 +1,6 @@
 const exerciseList = document.querySelector('#exercise-list');
 const form = document.querySelector('#add-exercise')
 
-//create element and render exercise
 function renderExercise(doc){
     	let li = document.createElement('li');              // Jedes Dokument bekommt ein li-Tag und 
         let name = document.createElement('span');           // span-Tag zugeteilt --> für CSS
@@ -38,7 +37,7 @@ form.addEventListener('submit', (evt) => {
         evt.preventDefault();
         db.collection('exercise').add({
             name: form.name.value,
-            area: db.collection('category').doc(document.getElementById("categorylist").value).get('area')
+            area: document.getElementById("categorylist").value
     })
     form.name.value = '';
     document.getElementById("categorylist").value = '';
@@ -58,8 +57,10 @@ db.collection('exercise').orderBy('name').onSnapshot(snapshot =>{
 })
 
 
-
-console.log(db.collection('category').doc('document.getElementById("categorylist").value').data.area);
+function getSelectValue(){
+    var selectedValue = document.getElementById("categorylist").value;
+    console.log(selectedValue)
+}
 
 
 
