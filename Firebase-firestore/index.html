@@ -6,15 +6,40 @@
     </head>
     <body>
 
-        <h1> Trainingsplan </h1>
+        <h1> Exercises </h1>
 
         <div class = "content">
 
-            <form id= "add-exercise"></form>
+            <form id= "add-exercise">
+                <input type="text" name="name" placeholder="exercise name">
+                <select id="categorylist" onchange="getSelectValue()">
+                    <option value=""> </option>
+                    <option value="Abduktoren">Abduktoren</option>
+                    <option value="Core">Core</option>
+                    <option value="Adduktoren">Adduktoren</option>
+                    <option value="Bizeps">Bizeps</option>
+                    <option value="Waden">Waden</option>
+                    <option value="Brust">Brust</option>
+                    <option value="Unterarm">Forearms</option>
+                    <option value="vordere Schultern">Front delts</option>
+                    <option value="Glutes">Glutes</option>
+                    <option value="Hamstrings">Hamstrings</option>
+                    <option value="Latissimus">Latissimus</option>
+                    <option value="Kreuz">Kreuz</option>
+                    <option value="Quads">Quads</option>
+                    <option value="hintere Schultern">hintere Schultern</option>
+                    <option value="seitliche Schultern">seitliche Schultern</option>
+                    <option value="Trapez">Trapez</option>
+                    <option value="Trizeps">Trizeps</option>
+                    <option value="Nacken">Nacken</option>
+                </select>
+                <button>Add Exercise</button>
+            </form>
 
             <ul id = "exercise-list"></ul>
 
         </div>
+        
       
 
 

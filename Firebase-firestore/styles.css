@@ -1,5 +1,5 @@
 body{
-    background: #153be7;
+    background: #6c82e6;
     font-family: ubuntu;
 }
 
@@ -52,8 +52,8 @@ li span:nth-child(2){
 
 li div{
     position: absolute;
-    top: 0;
-    right: 0px;
+    top: 23;
+    right: 15px;
     background: rgba(255,255,255,0.6);
     width: 40px;
     text-align: center;
@@ -73,6 +73,27 @@ form input{
     display: block;
     box-sizing: border-box;
     font-size: 18px;
+}
+
+form select{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 16px; 
+}
+
+
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
 }
 
 form input:focus{
@@ -98,5 +119,5 @@ button{
     font-weight: bold;
     font-family: ubuntu;
     letter-spacing: 1px;
-    color: #999;
+    color: rgb(102, 102, 102);
 }
