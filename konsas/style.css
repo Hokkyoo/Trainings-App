@@ -1,5 +1,6 @@
 body{
-background-color: rgb(71, 71, 71);
+background-color: rgb(36 36 36);
+background-color: white;
 }
 
 hr{
@@ -10,9 +11,9 @@ hr{
 
 .bild{
     margin-left: 20px;
-    width: 120px;
-    height: 120px;
-    margin-bottom: 15px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 35px;
     text-align: center;
 }
 
@@ -21,7 +22,7 @@ hr{
     height: 150px;
     border-left: black;
     border-right: black;
-    margin-right: 880px;
+    margin-right: 1150px;
 }
 
 

@@ -44,7 +44,7 @@ form.addEventListener('submit', (evt) => {
 }});
 
 // Real-Time Listener
-db.collection('exercise').orderBy('name').where('view', '==', true).onSnapshot(snapshot =>{
+db.collection('exercise').orderBy('name').onSnapshot(snapshot =>{
     let changes = snapshot.docChanges();
     changes.forEach(change => {
         if(change.type == 'added'){
