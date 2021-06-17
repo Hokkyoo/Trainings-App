@@ -1,0 +1,177 @@
+body{
+background-color: rgb(36 36 36);
+
+}
+
+hr{
+   height: 1px;
+   color: #F9660B;
+}
+
+
+.bild{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+    border-left: black;
+    border-right: black;
+    margin-right: 1070px;
+}
+
+
+
+h1{
+    color: white;
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    background: rgb(65, 65, 65);
+    max-width: 960px;
+    margin: 30px auto;
+    padding:  20px 40px;
+    border-radius: 10px 120px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+li{
+    padding: 20px;
+    background: rgb(65, 65, 65);
+    font-size: 20px;
+    color: white;
+    position: relative;
+    border-bottom: 1px solid black;
+    height: 46px;
+}
+
+li:nth-child(even){
+    padding: 20px;
+    background: rgb(65, 65, 65);
+}
+
+li span{
+    display: block;
+}
+
+li span:nth-child(2){
+    font-size: 16px;
+    margin-top: 6px;
+    color: #999;
+}
+
+li div{
+    position: absolute;
+    top: 23px;
+    right: 15px;
+    background: rgb(44, 44, 44);
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:  bold;
+    cursor:  pointer;
+}
+
+form input{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: rgb(95, 95, 95);
+}
+
+form select{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 16px; 
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+
+
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
+
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid #0c387e;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
+
+button{
+    border: 0;
+    background: rgb(95, 95, 95);
+    border-radius: 10px;
+    padding: 13px;
+    width: 14%;
+    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-family: ubuntu;
+    letter-spacing: 1px;
+    color: rgb(177, 177, 177);
+}
+
+.fertig{
+    background-color: rgb(95, 95, 95);
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-left: 420px;
+    padding: 5px;
+    border: white solid 1px;
+}
+
+.hero  {
+    width: 1900px;
+    margin-left: -10px;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.315);
+    opacity: 1; /* Firefox */
+  }
