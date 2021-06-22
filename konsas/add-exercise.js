@@ -37,14 +37,15 @@ form.addEventListener('submit', (evt) => {
         evt.preventDefault();
         db.collection('exercise').add({
             name: form.name.value,
-            area: document.getElementById("categorylist").value
+            area: document.getElementById("categorylist").value,
+            view: true
     })
     form.name.value = '';
     document.getElementById("categorylist").value = '';
 }});
 
 // Real-Time Listener
-db.collection('exercise').orderBy('name').onSnapshot(snapshot =>{
+db.collection('exercise').orderBy('name').where('view', '==', true).onSnapshot(snapshot =>{
     let changes = snapshot.docChanges();
     changes.forEach(change => {
         if(change.type == 'added'){
