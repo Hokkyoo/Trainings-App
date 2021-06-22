@@ -3,17 +3,17 @@
 
     function renderExercise(doc){
     	let li = document.createElement('li');              // Jedes Dokument bekommt ein li-Tag und 
-        let name = document.createElement('span');           // span-Tag zugeteilt --> für CSS
+        let workoutname = document.createElement('span');           // span-Tag zugeteilt --> für CSS
         let area = document.createElement('span');
         let list = document.createElement('b');
 
 
         li.setAttribute('data-id', doc.id); // Das jeweilige Dokument erhält eine eigene ID
-        name.textContent = doc.data().name; //Name vom Dokument wird entnommen
+        workoutname.textContent = doc.data().name; //Name vom Dokument wird entnommen
         area.textContent = doc.data().area;
         list.textContent = 'add';
 
-        li.appendChild(name);           
+        li.appendChild(workoutname);           
         li.appendChild(area);
         li.appendChild(list)         
           

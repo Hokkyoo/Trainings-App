@@ -39,6 +39,7 @@ h1{
     margin-top: 80px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12%;
 }
 
 .content{
@@ -49,7 +50,7 @@ h1{
     border-radius: 10px 120px 10px 10px;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
 
-    
+
 }
 
 ul{
@@ -93,14 +94,6 @@ li div{
     padding: 10px 0;
     font-weight:  bold;
     cursor:  pointer;
-}
-
-li b{
-    height: 46px;
-    position: absolute;
-    cursor: pointer;
-    top: 23px;
-    right: 10px;
 }
 
 form input{
@@ -159,13 +152,19 @@ button{
     border: 0;
     background: rgb(95, 95, 95);
     border-radius: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding: 13px;
-    width: 14%;
+    width: 18%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
-    font-family: ubuntu;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    color: rgb(177, 177, 177);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: none;
 }
 
 .fertig{
@@ -196,19 +195,23 @@ hr{
     color: #F9660B;
     margin-top: 8%;
 }
+
 header{
     background-color: rgb(53, 53, 53);
     position: fixed;
     width: 100%;
     z-index: 1;
     top: 0%;
-
+    border-bottom: 2px #f9660b solid;
 }
+
 main {
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
+    margin-top: 12%;
     padding: 0 40px;
     box-sizing: border-box;
 }
@@ -242,4 +245,25 @@ h2.ub{
 }
 h2.tr{
     display: inline-block;
+}
+.modal-title{
+    color: #F9660B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+.modal-body{
+    color: black;
+    font-size: 1.3em;
+}
+.username{
+    margin-left: 10%;
+}
+
+.password{
+    margin-left: 25%;
+}
+
+.email{
+    margin-left: 31%;
 }
