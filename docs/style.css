@@ -95,6 +95,14 @@ li div{
     cursor:  pointer;
 }
 
+li b{
+    height: 46px;
+    position: absolute;
+    cursor: pointer;
+    top: 23px;
+    right: 10px;
+}
+
 form input{
     float: left;
     width: 38%;

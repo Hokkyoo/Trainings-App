@@ -16,6 +16,17 @@
             <a class="bild" href="profil.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FProfil.png?alt=media&token=e5259154-836a-4fed-a1e4-20104bbeae60" alt=""></a>  
             <hr>
             <h1>Deine Trainingspläne</h1>
+        
+            <div class="content">
+                <form id= "add-routine">
+                    
+                </form>
+                <ul id="routine-list"></ul>
+                
+            </div>
+
+        
+        
         </body>
 
 
@@ -39,4 +50,5 @@
             const db = firebase.firestore()
             db.settings({timestampsInSnapshots: true })
             </script>
+            <script src="add-routine.js"></script>
     </html> 
