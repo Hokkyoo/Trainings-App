@@ -39,7 +39,6 @@ h1{
     margin-top: 80px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 12%;
 }
 
 .content{
@@ -94,6 +93,14 @@ li div{
     padding: 10px 0;
     font-weight:  bold;
     cursor:  pointer;
+}
+
+li b{
+    height: 46px;
+    position: absolute;
+    cursor: pointer;
+    top: 23px;
+    right: 10px;
 }
 
 form input{
@@ -156,7 +163,7 @@ button{
     width: 14%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ubuntu;
     letter-spacing: 1px;
     color: rgb(177, 177, 177);
 }
@@ -189,23 +196,19 @@ hr{
     color: #F9660B;
     margin-top: 8%;
 }
-
 header{
     background-color: rgb(53, 53, 53);
     position: fixed;
     width: 100%;
     z-index: 1;
     top: 0%;
-    border-bottom: 2px #f9660b solid;
-}
 
+}
 main {
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
-    margin-top: 12%;
     padding: 0 40px;
     box-sizing: border-box;
 }
