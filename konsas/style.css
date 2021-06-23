@@ -364,3 +364,43 @@ h2.tr{
 ::selection{
     background: #f9660b;
 }
+
+footer{
+    background-color: rgb(61, 57, 57);
+    color: #F9660B;
+    text-align: center;
+    list-style-type: disc;
+    white-space: nowrap;
+    text-decoration: none;
+    width: 100%;
+}
+
+footer ul{
+    white-space: nowrap;
+    margin: 0 auto;
+
+}
+footer li.li{
+    width: 20%;
+    display: inline-block;
+    font-size: 24px;
+    background-color: transparent;
+    border-bottom: 0px solid black;
+    padding: 0.4em 0;
+    bottom: 1em;
+}
+
+footer .li a{
+    position: relative;
+    text-decoration: none;
+    color: #F9660B;
+    border-bottom: none;
+    bottom: 1px;
+}
+.footbild{
+    display: inline-block;
+    bottom: 0;
+    width: 3em;
+    height: 3em;
+
+}
