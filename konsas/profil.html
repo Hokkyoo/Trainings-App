@@ -20,57 +20,59 @@
             <a class="bild" href="profil.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FProfil%20Orange.png?alt=media&token=9ca4ea2c-272f-4ae2-a602-05bed6eefd0b" alt=""></a>  
             </header>
             <main>
-              <!-- Button trigger modal -->
-                <button type="button" class="button" data-toggle="modal" data-target="#exampleModalCenter">
-                    Sign up
+                <!-- Button trigger modal -->
+                    <button type="button" class="button" data-toggle="modal" data-target="#exampleModalCenter" id="b1">
+                        Sign up
+                    </button>
+                    
+                    
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        Benutzername: <input type="name" class="username"placeholder="Max Mustermann..."> <br><br>
+                        Email:    <input type="email" class="email"><br> <br>
+                        Passwort:<input type="password" class="password">
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="button" style="line-height: 14px;">Save</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+           
+                <!-- Button trigger modal -->
+                <button type="button" class="button" data-toggle="modal" data-target="#exampleModalCenter2" >
+                    Log in
                 </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Log in</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        Email:    <input type="email" class="username" ><br> <br>
+                        Passwort:<input type="password" class="password">
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="button" style="line-height: 14px;">Save</button>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                    Benutzername: <input type="name" class="username"placeholder="Max Mustermann..."> <br><br>
-                    Email:    <input type="email" class="email"><br> <br>
-                    Passwort:<input type="password" class="password">
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="button" style="line-height: 14px;">Save</button>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="button" data-toggle="modal" data-target="#exampleModalCenter">
-                Log in
-            </button>
-
-             <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Log in</h5>
-                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    </div>
-                    <div class="modal-body">
-                    Email:    <input type="email" class="username" ><br> <br>
-                    Passwort:<input type="password" class="password">
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="button" style="line-height: 14px;">Save</button>
                     </div>
                 </div>
-                </div>
-            </div>
             </main>
         </body>
 
