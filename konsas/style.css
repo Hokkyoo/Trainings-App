@@ -5,7 +5,7 @@ body, ul, li, h1, h2, a{
 }
 
 body{
-background-color: rgb(36 36 36);
+    background-color: rgb(36 36 36);
 
 }
 
@@ -14,23 +14,11 @@ hr{
 }
 
 
-.bild{
-    position: relative;
-    margin-left: 0.5%;
-    width: 5%;
-    height: 5%;
-    margin-bottom: 1.5%;
-    left: 0;
-}
-
 .logo{
     width: 17%;
     height: 8.5%;
     margin-right: 55.5%;
 }
-
-
-
 h1{
     color: white;
     font-size: 64px;
@@ -245,7 +233,7 @@ button{
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgba(255, 255, 255, 0.315);
+    color: lightgray;
     opacity: 1; /* Firefox */
 }
 
@@ -328,6 +316,7 @@ h2.tr{
 }
 .username{
     margin-left: 13%;
+    color: black;
 }
 
 .password{
@@ -365,42 +354,20 @@ h2.tr{
     background: #f9660b;
 }
 
-footer{
-    background-color: rgb(61, 57, 57);
-    color: #F9660B;
-    text-align: center;
-    list-style-type: disc;
-    white-space: nowrap;
-    text-decoration: none;
-    width: 100%;
-}
-
-footer ul{
-    white-space: nowrap;
-    margin: 0 auto;
-
-}
-footer li.li{
-    width: 20%;
-    display: inline-block;
-    font-size: 24px;
-    background-color: transparent;
-    border-bottom: 0px solid black;
-    padding: 0.4em 0;
-    bottom: 1em;
-}
-
-footer .li a{
+.bild{
     position: relative;
-    text-decoration: none;
-    color: #F9660B;
-    border-bottom: none;
-    bottom: 1px;
+    margin-left: 0.5%;
+    width: 5%;
+    height: 5%;
+    margin-bottom: 1.5%;
+    left: 0;
 }
-.footbild{
-    display: inline-block;
-    bottom: 0;
-    width: 3em;
-    height: 3em;
 
+.bildprofil{
+    position: relative;
+    margin-left: 0.5%;
+    width: 5%;
+    height: 5%;
+    margin-bottom: 0%;
+    left: 0;
 }
