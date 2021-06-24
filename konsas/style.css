@@ -299,10 +299,20 @@ main {
 h2.ub{
     display: inline-block;
     bottom: 3.5em;
+    font-weight: bold;
+    font-size: 35px;
 }
 h2.tr{
     display: inline-block;
     bottom: 3.5em;
+    font-weight: bold;
+    font-size: 35px;
+}
+.tr{
+    font-size: 30px;
+}
+.ub{
+    font-size: 30px;
 }
 .modal-title{
     color: #F9660B;
@@ -371,6 +381,27 @@ h2.tr{
     margin-bottom: 0%;
     left: 0;
 }
+
+.impressum{
+    margin-top: 5%;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 18px;
+}
+.ausrufezeichenorange{
+    display: inline-block;
+    color: #F9660B;
+}
+
+.liobild{
+    position: absolute;
+    display: inline-block;
+    bottom: 60%;
+    left: 85%;
+    height: 10em;
+    width: 10em;
+}
+
 .buttonf{
     border: 0;
     background: rgb(95, 95, 95);
@@ -391,4 +422,4 @@ h2.tr{
     margin-left: 35%;
     margin-top: 2%;
 
-}
+} 
