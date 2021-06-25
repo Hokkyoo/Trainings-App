@@ -15,10 +15,20 @@ hr{
 
 
 .logo{
-    width: 17%;
-    height: 8.5%;
-    margin-right: 55.5%;
+    width: 12%;
+    height: 6%;
+    margin-right: 64%;
 }
+
+.bild{
+    position: relative;
+    margin-left: 0.5%;
+    width: 4%;
+    height: 4%;
+    margin-bottom: 1%;
+    left: 0;
+}
+
 h1{
     color: white;
     font-size: 64px;
@@ -250,6 +260,7 @@ header{
     z-index: 1;
     top: 0%;
     border-bottom: 2px #f9660b solid;
+    height: auto;
 }
 
 main {
@@ -362,15 +373,6 @@ h2.tr{
 }
 ::selection{
     background: #f9660b;
-}
-
-.bild{
-    position: relative;
-    margin-left: 0.5%;
-    width: 5%;
-    height: 5%;
-    margin-bottom: 1.5%;
-    left: 0;
 }
 
 .bildprofil{
