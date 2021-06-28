@@ -3,10 +3,11 @@
         <head>
             <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
             <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
-            <link rel="stylesheet" href="style.css">
-            <title>Konsas Fitness - Übungen</title>
+            <link rel = "stylesheet" href = "style.css">
             <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fuebungenorange.png?alt=media&token=94cf74d9-fb7a-4147-839b-f3198911c0f3" />
+            <title>Konsas Fitness - Übungen hinzufügen</title>
             <link rel="stylesheet" href="footer.css">
+            <link rel="stylesheet" href="tstyle.css">
         </head>
         <body>
             <header>
@@ -16,41 +17,52 @@
                 <a class="bild" href="verlauf.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FRoutine.png?alt=media&token=04292fdd-fdd3-4c8c-b213-0340234c1bb9" alt=""></a>  
                 <a class="bild" href="profil.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FProfil.png?alt=media&token=e5259154-836a-4fed-a1e4-20104bbeae60" alt=""></a>  
             </header>
-            
-            <h1 align="middle">Übungen </h1>
-            <a class="fertig" href="uebunghinzufuegen.html">Übung hinzufügen</a>
-            <div class="content">
-                <p class="unsichtbar"> asd</p>
+            <a class="fertig2" href="thinzufügen.html" style="display: inline-block;">Zurück</a>
+            <a class="fertig2" href="thinzufügen.html" style="display: inline-block;">Speichern</a>
+            <h1> Übungen </h1>
+
+            <div class = "content">
                 <form id= "add-exercise">
-                    
                 </form>
-                <ul id="exercise-list"></ul>
-                
+                <ul id = "exercise-list"></ul>
             </div>
 
+            <a class="fertig" href="thinzufügen.html">Zurück</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <script>
 
+                var firebaseConfig = {
+                    apiKey: "AIzaSyCA6yFEYEIqM-7O3AodkHXOZAZUQgFtoZg",
+                    authDomain: "konsas-3fa73.firebaseapp.com",
+                    projectId: "konsas-3fa73",
+                    storageBucket: "konsas-3fa73.appspot.com",
+                    messagingSenderId: "373741347938",
+                    appId: "1:373741347938:web:31abfa0d4334a50e49dd3b",
+                    measurementId: "G-2BVKZMSXTL"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+                const db = firebase.firestore()
+                db.settings({timestampsInSnapshots: true })
+                </script>
+                <script src="add-exercise.js"> </script>
         </body>
-
-
-
-
-
-        
-        <script>
-
-            var firebaseConfig = {
-                apiKey: "AIzaSyCA6yFEYEIqM-7O3AodkHXOZAZUQgFtoZg",
-                authDomain: "konsas-3fa73.firebaseapp.com",
-                projectId: "konsas-3fa73",
-                storageBucket: "konsas-3fa73.appspot.com",
-                messagingSenderId: "373741347938",
-                appId: "1:373741347938:web:31abfa0d4334a50e49dd3b",
-                measurementId: "G-2BVKZMSXTL"
-            };
-            // Initialize Firebase
-            firebase.initializeApp(firebaseConfig);
-            const db = firebase.firestore()
-            db.settings({timestampsInSnapshots: true })
-            </script>
-            <script src="exercise-list.js"> </script>
     </html>
