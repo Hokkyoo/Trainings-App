@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+            <title>Konsas Fitness - Profil</title>
+            <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fuebungenorange.png?alt=media&token=94cf74d9-fb7a-4147-839b-f3198911c0f3" />
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="pstyle.css">
+            <link rel="stylesheet" href="footer.css">
+        </head>
+        <body>
+            <header>
+                <a href="startseite.html"><img class="logo" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FHeader%20Button.png?alt=media&token=5f128a01-5c9d-4d0d-8fa3-0a20fdd5c33d" alt=""></a>
+                <a class="bildprofil" href="trainingsplaene.html"><img class="bildprofil" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FPlus.png?alt=media&token=9a51cd30-b594-477a-82f1-ae4facafd95c" alt=""></a>  
+                <a class="bildprofil" href="uebungen.html"><img class="bildprofil" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2F%C3%9Cbungen.png?alt=media&token=a2d16a78-a176-4e9a-a812-8debb9fcbd02" alt=""></a>  
+                <a class="bildprofil" href="verlauf.html"><img class="bildprofil" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FRoutine.png?alt=media&token=04292fdd-fdd3-4c8c-b213-0340234c1bb9" alt=""></a>  
+                <a class="bildprofil" href="profil.html"><img class="bildprofil" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FProfil%20Orange.png?alt=media&token=9ca4ea2c-272f-4ae2-a602-05bed6eefd0b" alt=""></a>  
+            </header>
+            <main>
+                <!-- Button trigger modal -->
+                <h1>Willkommen "username"! :D:D</h1>
+                <br><br>
+                    <button type="button" class="buttonf" data-toggle="modal" data-target="#modal-signup" id="b1">
+                        Sign up
+                    </button>
+                    
+                    
+                <!-- Modal -->
+                <div class="modal fade" id="modal-signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <form id="signup-form">
+                        <div class="modal-body">
+                        Benutzername: <input type="name" id="signup-name" class="username" placeholder="Max Mustermann..." required> <br><br>
+                        Email:    <input type="email" id="signup-email" class="email" placeholder="Max@gmail.com..." required><br> <br>
+                        Passwort:<input type="password" id="signup-password" class="password"placeholder="s%$f§34f%fgrf3..." required>
+                        </div>
+                        <div class="modal-footer">
+                        <button class="button" style="line-height: 14px;">Sign Up</button>
+                        </div>
+                    </form>
+                    </div>
+                    </div>
+                </div>
+                <br><br>
+                <!-- Button trigger modal -->
+                <button type="button" class="buttonf" data-toggle="modal" data-target="#modal-login" >
+                    Log in
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Log in</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <form id="login-form">
+                        <div class="modal-body">
+                        Email:    <input type="email" class="email" id="login-email" placeholder="Max@gmail.com..."><br> <br>
+                        Passwort:<input type="password" id="login-password" class="password"placeholder="s%$f§34f%fgrf3...">
+                        </div>
+                        <div class="modal-footer">
+                        <button class="button" style="line-height: 14px;">Save</button>
+                        </div>
+                    </form>
+                    </div>
+                    </div>
+                </div>
+            </main>
+        </body>
+
+
+
+
+
+        <script>
+
+            var firebaseConfig = {
+                apiKey: "AIzaSyCA6yFEYEIqM-7O3AodkHXOZAZUQgFtoZg",
+                authDomain: "konsas-3fa73.firebaseapp.com",
+                projectId: "konsas-3fa73",
+                appId: "1:373741347938:web:31abfa0d4334a50e49dd3b",
+                measurementId: "G-2BVKZMSXTL"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore()
+            db.settings({timestampsInSnapshots: true })
+
+            const auth = firebase.auth();
+            </script>
+            <script src="auth.js"></script>
+    </html>  

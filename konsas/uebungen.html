@@ -6,18 +6,21 @@
             <link rel="stylesheet" href="style.css">
             <title>Konsas Fitness - Übungen</title>
             <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fuebungenorange.png?alt=media&token=94cf74d9-fb7a-4147-839b-f3198911c0f3" />
-       
+            <link rel="stylesheet" href="footer.css">
         </head>
         <body>
-            <a href="startseite.html"><img class="logo" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FHeader%20Button.png?alt=media&token=5f128a01-5c9d-4d0d-8fa3-0a20fdd5c33d" alt=""></a>
-            <a class="bild" href="trainingsplaene.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FPlus.png?alt=media&token=9a51cd30-b594-477a-82f1-ae4facafd95c" alt=""></a>  
-            <a class="bild" href="uebungen.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2F%C3%9Cbungen%20Kopie.png?alt=media&token=a9f4306f-8912-4941-8342-95fde088ce40" alt=""></a>  
-            <a class="bild" href="verlauf.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FRoutine.png?alt=media&token=04292fdd-fdd3-4c8c-b213-0340234c1bb9" alt=""></a>  
-            <a class="bild" href="profil.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FProfil.png?alt=media&token=e5259154-836a-4fed-a1e4-20104bbeae60" alt=""></a>  
+            <header>
+                <a href="startseite.html"><img class="logo" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FHeader%20Button.png?alt=media&token=5f128a01-5c9d-4d0d-8fa3-0a20fdd5c33d" alt=""></a>
+                <a class="bild" href="trainingsplaene.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FPlus.png?alt=media&token=9a51cd30-b594-477a-82f1-ae4facafd95c" alt=""></a>  
+                <a class="bild" href="uebungen.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2F%C3%9Cbungen%20Kopie.png?alt=media&token=a9f4306f-8912-4941-8342-95fde088ce40" alt=""></a>  
+                <a class="bild" href="verlauf.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FRoutine.png?alt=media&token=04292fdd-fdd3-4c8c-b213-0340234c1bb9" alt=""></a>  
+                <a class="bild" href="profil.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FProfil.png?alt=media&token=e5259154-836a-4fed-a1e4-20104bbeae60" alt=""></a>  
+            </header>
             
-            <hr>
             <h1 align="middle">Übungen </h1>
+            <a class="fertig" href="uebunghinzufuegen.html">Übung hinzufügen</a>
             <div class="content">
+                <p class="unsichtbar"> asd</p>
                 <form id= "add-exercise">
                     
                 </form>
@@ -25,7 +28,6 @@
                 
             </div>
 
-                <a class="fertig" href="uebunghinzufuegen.html">Übung hinzufügen</a>
 
         </body>
 
@@ -50,5 +52,5 @@
             const db = firebase.firestore()
             db.settings({timestampsInSnapshots: true })
             </script>
-            <script src="app2.js"> </script>
+            <script src="exercise-list.js"> </script>
     </html>

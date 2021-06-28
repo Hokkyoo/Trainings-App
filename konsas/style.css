@@ -1,0 +1,423 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(36 36 36);
+
+}
+
+hr{
+   height: 0px;
+}
+
+
+.logo{
+    width: 12%;
+    height: 6%;
+    margin-right: 64%;
+}
+
+.bild{
+    position: relative;
+    margin-left: 0.5%;
+    width: 4%;
+    height: 4%;
+    margin-bottom: 1%;
+    left: 0;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12%;
+}
+
+.content{
+    background: rgb(65, 65, 65);
+    max-width: 960px;
+    margin: 30px auto;
+    padding:  20px 40px;
+    border-radius: 10px 120px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+
+
+}
+
+.contentc{
+    background: rgb(65, 65, 65);
+    max-width: 960px;
+    margin: 30px auto;
+    padding:  20px 40px;
+    border-radius: 10px 120px 10px 10px;
+    box-shadow: 1px 3px 5px rgb(255, 255, 255)
+
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+li{
+    padding: 20px;
+    background: rgb(65, 65, 65);
+    font-size: 20px;
+    color: white;
+    position: relative;
+    border-bottom: 1px solid black;
+    height: 46px;
+}
+
+li:nth-child(even){
+    padding: 20px;
+    background: rgb(65, 65, 65);
+}
+
+li span{
+    display: block;
+}
+
+li span:nth-child(2){
+    font-size: 16px;
+    margin-top: 6px;
+    color: #999;
+}
+
+li div{
+    position: absolute;
+    top: 23px;
+    right: 15px;
+    background: rgb(44, 44, 44);
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:  bold;
+    cursor:  pointer;
+}
+
+form input{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: rgb(95, 95, 95);
+}
+
+form select{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 16px; 
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+
+
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
+
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid #0c387e;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
+
+button{
+    border: 0;
+    background: rgb(95, 95, 95);
+    border-radius: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 13px;
+    width: 18%;
+    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: none;
+}
+.buttond {
+    text-align: center;
+}
+.ready {
+    border-radius: 1em;
+    background-color: #F9660B;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2%;
+    width: 20%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  
+  }
+  
+  .ready span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .ready span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -0.1em;
+    transition: 0.5s;
+  }
+  
+  .ready:hover span {
+    padding-right: 1em;
+  }
+  
+  .ready:hover span:after {
+    opacity: 1;
+    right:ready
+  }
+
+.buttonf:hover {background-color: #F9660B}
+
+.buttonf:active {
+  background-color: #F9660B;
+  transform: translateY(2px);
+}
+
+.fertig{
+    background-color: rgb(95, 95, 95);
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-left: 420px;
+    padding: 5px;
+    border: white solid 1px;
+}
+.fertig:hover{
+    background-color: #f9660b;
+}
+.hero {
+    margin-top: 2%;
+}
+.hero img{
+    max-width: 100%;
+    margin-left: -10;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    opacity: 1; /* Firefox */
+}
+
+hr{
+    height: 1px;
+    color: #F9660B;
+    margin-top: 8%;
+}
+
+header{
+    background-color: rgb(53, 53, 53);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0%;
+    border-bottom: 2px #f9660b solid;
+    height: auto;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    margin-top: 12%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.features{
+    margin: 0 auto;
+    overflow: visible;
+    margin-left: 10%;
+    height: 1000%;
+    width: 100%;
+}
+
+.features li{
+    background: none;
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.features li.tr{
+    text-align: center;
+    float: left;
+    margin: 0.2em;
+    padding-bottom: 20%;
+    border-bottom: none;
+}
+
+.features li.ub{
+    text-align: center;
+    float: left;
+    margin: 0.2em;
+    padding-bottom: 20%;
+    border-bottom: none;
+}
+
+h2.ub{
+    display: inline-block;
+    bottom: 3.5em;
+    font-weight: bold;
+    font-size: 35px;
+}
+h2.tr{
+    display: inline-block;
+    bottom: 3.5em;
+    font-weight: bold;
+    font-size: 35px;
+}
+.tr{
+    font-size: 30px;
+}
+.ub{
+    font-size: 30px;
+}
+.modal-title{
+    color: #F9660B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+.modal-body{
+    color: black;
+    font-size: 1.3em;
+}
+.username{
+    margin-left: 13%;
+    color: black;
+}
+
+.password{
+    margin-left: 25%;
+}
+
+.email{
+    margin-left: 31%;
+}
+.buttonc{
+    border: 0;
+    background: rgb(95, 95, 95);
+    border-radius: 10px;
+    padding: 13px;
+    width: 18%;
+    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin-left: 41%;
+    margin-top: 2%;
+}
+
+
+.whitee{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+::selection{
+    background: #f9660b;
+}
+
+.bildprofil{
+    position: relative;
+    margin-left: 0.5%;
+    width: 4%;
+    height: 4%;
+    margin-bottom: 0%;
+    left: 0;
+}
+
+.impressum{
+    margin-top: 5%;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 18px;
+}
+.ausrufezeichenorange{
+    display: inline-block;
+    color: #F9660B;
+}
+
+.liobild{
+    position: absolute;
+    display: inline-block;
+    bottom: 60%;
+    left: 85%;
+    height: 10em;
+    width: 10em;
+}
+
+.buttonf{
+    border: 0;
+    background: rgb(95, 95, 95);
+    border-radius: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 30px;
+    width: 30%;
+    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: none;
+    margin-left: 35%;
+    margin-top: 2%;
+} 
+.unsichtbar{
+    color: transparent;
+}

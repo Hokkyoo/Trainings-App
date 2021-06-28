@@ -5,21 +5,27 @@ function renderExercise(doc){
     	let li = document.createElement('li');              // Jedes Dokument bekommt ein li-Tag und 
         let name = document.createElement('span');           // span-Tag zugeteilt --> für CSS
         let area = document.createElement('span')
-
+        let cross = document.createElement('div');
 
         li.setAttribute('data-id', doc.id); // Das jeweilige Dokument erhält eine eigene ID
         name.textContent = doc.data().name; //Name vom Dokument wird entnommen
         area.textContent = doc.data().area;
+        cross.textContent = 'x';
 
         li.appendChild(name);           //  The append() method takes a single item as an input parameter     
         li.appendChild(area);           //   and adds that to the end of the list. The items inside 
-          //   a list can be numbers, strings, another list, dictionary.
+        li.appendChild(cross)           //   a list can be numbers, strings, another list, dictionary.
 
         exerciseList.appendChild(li);
-}
+
 // Daten auf der Website löschen aus der Datenbank
 
+cross.addEventListener('click', (evt) => {
+    let id = evt.target.parentElement.getAttribute('data-id');
+    db.collection('exercise').doc(id).delete();
 
+    })
+}
 
 //Daten in die Datenbank speichern --> User
 form.addEventListener('submit', (evt) => { 
@@ -31,14 +37,15 @@ form.addEventListener('submit', (evt) => {
         evt.preventDefault();
         db.collection('exercise').add({
             name: form.name.value,
-            area: document.getElementById("categorylist").value
+            area: document.getElementById("categorylist").value,
+            view: true
     })
     form.name.value = '';
     document.getElementById("categorylist").value = '';
 }});
 
 // Real-Time Listener
-db.collection('exercise').orderBy('name').onSnapshot(snapshot =>{
+db.collection('exercise').orderBy('name').where('view', '==', true).onSnapshot(snapshot =>{
     let changes = snapshot.docChanges();
     changes.forEach(change => {
         if(change.type == 'added'){
@@ -55,7 +62,6 @@ function getSelectValue(){
     var selectedValue = document.getElementById("categorylist").value;
     console.log(selectedValue)
 }
-
 
 
 
