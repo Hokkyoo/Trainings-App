@@ -176,6 +176,7 @@ button{
 }
 .buttond {
     text-align: center;
+    width: 100%;
 }
 .ready {
     border-radius: 1em;
