@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+            <link rel="stylesheet" href="style.css">
+            <title>Konsas Fitness - Trainingspläne</title>
+            <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fuebungenorange.png?alt=media&token=94cf74d9-fb7a-4147-839b-f3198911c0f3" />
+            <link rel="stylesheet" href="footer.css">
+        </head>
+        <body>
+            <header>
+                <a href="startseite.html"><img class="logo" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FHeader%20Button.png?alt=media&token=5f128a01-5c9d-4d0d-8fa3-0a20fdd5c33d" alt=""></a>
+                <a class="bild" href="trainingsplaene.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FPlus%20Orange.png?alt=media&token=dc9df641-fa0e-42e7-8c96-f5a37ba4e607" alt=""></a>  
+                <a class="bild" href="uebungen.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2F%C3%9Cbungen.png?alt=media&token=a2d16a78-a176-4e9a-a812-8debb9fcbd02" alt=""></a>  
+                <a class="bild" href="verlauf.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FRoutine.png?alt=media&token=04292fdd-fdd3-4c8c-b213-0340234c1bb9" alt=""></a>  
+                <a class="bild" href="profil.html"><img class="bild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2FProfil.png?alt=media&token=e5259154-836a-4fed-a1e4-20104bbeae60" alt=""></a>  
+            </header>
+            
+            <h1>Neue Vorlage</h1>
+            <main>
+            <div>
+                <input type="text" placeholder="Workoutname">
+            </div>
+            <br><br><br>
+            <div>
+                <button>
+                    <a class="whitee" href="tliste.html">Übungen hinzufügen</a>
+                </button>
+                
+            </div>
+            <br>
+            <div class = "content">
+                <form id= "add-routine">
+                </form>
+                <ul id = "exercise-list">Übungen</ul>
+            </div> 
+            <br>
+                <button>
+                    <a style="color: white; text-decoration: none;" href="trainingsplaene.html">Save</a>
+                </button>
+            </main>
+        <footer>
+                <ul>
+                    <li class="li"><a href="impressum.html">Impressum</a></li>
+                    <li class="li"><a href="hilfe.html">Hilfe</a></li>
+                    <li class="li" id="libild"><a id="footerbild" href="startseite.html"><img id="footerbild" src="https://firebasestorage.googleapis.com/v0/b/konsas-3fa73.appspot.com/o/images%2Fneue%20images%2F%C3%9Cbungen%20Orange.png?alt=media&token=37bf0189-5859-49aa-aca6-9576c98ad0bb" alt=""></a></li>
+                    <li class="li"><a href="test.html">Test</a></li>
+                    <li class="li"><a href="test.html">Test</a></li>
+                </ul>
+            </footer>
+        </body>
+
+
+
+
+
+        
+        <script>
+
+            var firebaseConfig = {
+                apiKey: "AIzaSyCA6yFEYEIqM-7O3AodkHXOZAZUQgFtoZg",
+                authDomain: "konsas-3fa73.firebaseapp.com",
+                projectId: "konsas-3fa73",
+                storageBucket: "konsas-3fa73.appspot.com",
+                messagingSenderId: "373741347938",
+                appId: "1:373741347938:web:31abfa0d4334a50e49dd3b",
+                measurementId: "G-2BVKZMSXTL"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore()
+            db.settings({timestampsInSnapshots: true })
+            </script>
+            <script src="add-routine.js"></script>
+    </html> 
