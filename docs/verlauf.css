@@ -1,0 +1,107 @@
+h1{
+    color: white;
+    font-size: 64px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40%;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: bold;
+    color: #F9660B;
+    border-bottom: 1px solid #F9660B;
+    padding-bottom: 1em;
+    margin-bottom: 0%;
+}
+
+li{
+    padding: 1.3em;
+    background: transparent;
+    font-size: 1.5em;
+    color: white;
+    position: relative;
+    height: 2em;
+    border: none;
+}
+li:nth-child(even){
+    padding: 1.3em;
+    background: transparent;
+    border: none;
+}
+
+.verlauf{
+    display:inline-block;
+    border: 1px white solid;
+    width: 67.5%;
+    margin-left: 17%;
+    text-align: center;
+    margin-top: 3%;
+}
+.fertig2{
+    background-color: rgb(95, 95, 95);
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-left: 5%;
+    padding: 5px;
+    border: white solid 1px;
+    margin-top: 9%;
+}
+h1{
+    color: white;
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+
+.leistung{
+        display:inline-block;
+        border: 1px white solid;
+        width: 25%;
+        margin-left: 17%;
+        text-align: center;
+        margin-top: 3%;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F9660B;
+    border-bottom: 1px solid #F9660B;
+    padding-bottom: 1em;
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+.zeit{
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    margin-top: 4%;
+    margin-left: 36%;
+}
+
+.eig{
+    display: inline-block;
+    margin-left: 6.5%;
+
+}
+
+ul{
+    text-align: left;
+    padding: 0;
+    color: white;
+}
+
+.wert{
+    text-align: center;
+}
+
+
+.w-uebungen1{
+    border-bottom: 1px solid white;
+}
